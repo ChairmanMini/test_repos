@@ -1,6 +1,9 @@
 ﻿#include <iostream>
-//danila pidoras :)
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+	for (int i = 0; i < 5; i++)
+	{
+		cout << "Hello World!\n";
+	}
 }
