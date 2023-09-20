@@ -2,8 +2,10 @@
 using namespace std;
 int main()
 {
-	for (int i = 0; i < 5; i++)
-	{
-		cout << "Hello World!\n";
-	}
+	int a = 3;
+	int& pa = a;
+	cout << "a = " << a << "\n" << "pa = " << pa << "\n";
+	pa += 2;
+	cout << "a = " << a << "\n" << "pa = " << pa << "\n";
+
 }
